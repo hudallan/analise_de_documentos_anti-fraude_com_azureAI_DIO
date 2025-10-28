@@ -4,7 +4,7 @@ Este projeto implementa uma aplicação web interativa para a verificação de i
 
 A aplicação utiliza um conjunto de serviços de Inteligência Artificial do Azure para processar o upload de um documento de identidade (ex: CNH, Passaporte) e uma "selfie" do usuário. O sistema então extrai os dados, valida a autenticidade (liveness) da selfie e compara o rosto da selfie com o rosto no documento, simulando um processo de "Know Your Customer" (KYC) e anti-fraude.
 
-🎯 **Funcionalidades e Objetivo**
+**Funcionalidades e Objetivo**
 
 O objetivo é demonstrar um fluxo de verificação de identidade robusto, detectando tentativas de fraude (como usar a foto de outra pessoa ou uma foto de uma foto).
 
@@ -18,17 +18,7 @@ O aplicativo faz o seguinte:
   * **Verificação de IA (Face Match):** Compara o rosto da selfie (validado como "ao vivo") com o rosto extraído da foto no documento de identidade, gerando uma pontuação de confiança na correspondência.
   * **Exibe o Resultado:** Apresenta os dados extraídos do documento e um veredito final (ex: "Verificação Aprovada" ou "Falha na Verificação Anti-Fraude"), juntamente com as pontuações de liveness e correspondência.
 
-✨ **Tecnologias Utilizadas**
-
-| Tecnologia | Finalidade |
-| :--- | :--- |
-| Python 3.x | Linguagem principal do projeto. |
-| Streamlit | Framework para construção da interface web e dashboard. |
-| Azure Document Intelligence | Serviço de IA para extrair dados de documentos de identidade. |
-| Azure AI Vision (Face API) | Serviço de IA para verificação de liveness e correspondência facial. |
-| python-dotenv | Gerenciamento seguro das chaves de acesso. |
-
-⚙️ **Como Rodar o Projeto Localmente**
+**Como Rodar o Projeto Localmente**
 
 Siga estas instruções para configurar e executar a aplicação em sua máquina local.
 
