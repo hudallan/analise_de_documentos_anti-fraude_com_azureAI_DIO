@@ -1,0 +1,1 @@
+# analise_de_documentos_anti-fraude_com_azureAI_DIO
